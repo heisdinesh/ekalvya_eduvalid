@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 // import Checklist from './checklist';
 // import ChecklistItem from './checklistItem';
 import { LandingPage} from './pages';
-import { Course } from './components';
+import {Course, HackathonListItem}  from './components';
 import {react_data} from "./data/react_data"
 
 
@@ -13,7 +13,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          {/* <Route path="/react" element={<Curcuilum />} /> */}
+          <Route path="/hackathons" element={<HackathonListItem />} />
           {/* <Route path="/course" element={<CourseList />} > */}
           <Route path="/react" element={<Course checkListItems="react" checkListProgress="reactProgress" data={react_data} />} />
           {/* </Route> */}
