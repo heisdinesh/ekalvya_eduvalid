@@ -1,4 +1,4 @@
-const List =[
+export const react_data =[
     { id: 1, item: "React Components", isChecked: false, link: "https://www.youtube.com/watch?v=Dorf8i6lCuk&ab_channel=Academind" },
     { id: 2, item: "React States", isChecked: false, link: "https://www.youtube.com/watch?v=Dorf8i6lCuk&ab_channel=Academind" },
     { id: 3, item: "Routing", isChecked: false, link: "https://youtu.be/nDGA3km5He4" },

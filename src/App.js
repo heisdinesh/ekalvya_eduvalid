@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 // import ChecklistItem from './checklistItem';
 import { LandingPage} from './pages';
 import { Course } from './components';
-import react_data from "./data/react_data"
+import {react_data} from "./data/react_data"
 
 
 const App = () => {

@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import CourseItem from './CourseItem';
 import Leaderboard from './Leaderboard';
 
-const ReactCourse = ({checkListItems, checkListProgress, data}) => {
+const Course = ({checkListItems, checkListProgress, data}) => {
   
 
   const [items, setItems] = useState([]);
+  console.log(data)
 
   useEffect(()=>{
     if(localStorage.getItem(`${checkListItems}`) ==null){
@@ -96,4 +97,4 @@ setItems(data)
   );
 };
 
-export default ReactCourse;
+export default Course;
