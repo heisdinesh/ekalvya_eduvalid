@@ -5,10 +5,10 @@ import { useNavigate } from 'react-router-dom'
 
 
 
-const Card = ({skill}) => {
+const Card = ({skill,route}) => {
     const navigate =useNavigate();
    const  handleClick=()=>{
-        navigate("/react")
+        navigate(`/${route}`)
         }
   return (
     <div className="p-4 bg-bpink h-48 w-96 rounded-md text-black flex flex-col gap-5 justify-between ">

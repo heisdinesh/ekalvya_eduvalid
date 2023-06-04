@@ -7,7 +7,6 @@ const Landing = () => {
         <div className='text Center flex flex-col items-center gap-2'>
             <h1 className="font-bold	 text-7xl">EDU VALID</h1>
             <p className="font-semibold text-xl">Your Path to Self-Study Mastery</p>
-            {/* <img src={Ekalavya} className='top-0 left-0 fixed'></img> */}
         </div>
     </div>
   )

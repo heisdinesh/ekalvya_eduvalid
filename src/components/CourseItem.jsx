@@ -1,8 +1,8 @@
 import React from 'react';
-import Youtube from './assets/utube.png'
+import Youtube from '../assets/utube.png'
 
-const ChecklistItem = ({ key,item, isChecked, onCheck ,link}) => {   
-  console.log(key)
+const CourseItem = ({ key,item, isChecked, onCheck ,link}) => {   
+  // console.log(key)
   return (
     <div className="shadow-md p-6 flex justify-between relative  items-center ">
       <div className="flex">
@@ -17,4 +17,4 @@ const ChecklistItem = ({ key,item, isChecked, onCheck ,link}) => {
   );
 }
 
-export default ChecklistItem;
+export default CourseItem;

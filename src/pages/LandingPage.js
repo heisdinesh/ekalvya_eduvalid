@@ -1,12 +1,12 @@
 import React from 'react'
-import { Landing ,Badges, GuidetoHack } from '../components'
+import { Landing , Learnings, GuidetoHack} from '../components'
 
 const LandingPage = () => {
   return (
     <div className="h-screen bg-gradient-to-r from-pinky to-bluey">
       <Landing />
-      <Badges  />
-      <GuidetoHack />
+      <Learnings  />
+      <GuidetoHack/>
     </div>
   )
 }

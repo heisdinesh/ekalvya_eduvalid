@@ -9,7 +9,7 @@ const leaderboardData = [
   // Add more players here
 ];
 
-const Leaderboard = () => {
+const Leaderboard = ({progress}) => {
   return (
     <div className="h-fit w-full max-w-md mx-auto bg-bpink rounded shadow-md mt-32 text-black">
       <h2 className="text-2xl font-bold p-4 text-black text-center">Leaderboard</h2>

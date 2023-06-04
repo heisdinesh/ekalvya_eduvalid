@@ -1,7 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import { LandingPage ,Curcuilum} from './pages';
-import Hackathons from './pages/Hackathons';
+// import Checklist from './checklist';
+// import ChecklistItem from './checklistItem';
+import { LandingPage} from './pages';
+import { Course } from './components';
+import {react_data} from "./data/react_data"
 
 
 const App = () => {
@@ -10,21 +13,15 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/react" element={<Curcuilum />} />
-          <Route path="/hackathons" element={<Hackathons />} />
-
+          {/* <Route path="/react" element={<Curcuilum />} /> */}
+          {/* <Route path="/course" element={<CourseList />} > */}
+          <Route path="/react" element={<Course checkListItems="react" checkListProgress="reactProgress" data={react_data} />} />
+          {/* </Route> */}
         </Routes>
       </Router>
 
     </div>
-    // <div>
-    //   <h1>Checklist</h1>
-    //   <Checklist>
-    //     <ChecklistItem item="Task 1" isChecked={true} />
-    //     <ChecklistItem item="Task 2" isChecked={false} />
-    //     {/* Add more checklist items */}
-    //   </Checklist>
-    // </div>
+   
   );
 }
 
