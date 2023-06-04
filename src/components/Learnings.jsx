@@ -4,15 +4,15 @@ import Leaderboard from './Leaderboard'
 
 
 
-const Badges = () => {
+const Learnings = () => {
   return (
     <div className='h-screen text-white bg-gradient-to-r from-pinky to-bluey '>
       <div>
         <p className='text-center font-medium text-5xl pt-16 text-black'>Learnings</p>
        <div className="mx-8  pt-16 flex flex-wrap gap-4 justify-center">
-       <Card skill="React" />
-       <Card skill="Express" />
-       <Card skill="MongoDB" />
+       <Card skill="React" route="react" />
+       <Card skill="Backend" route="backend" />
+       <Card skill="Android" route="android" />
       </div>
     
        </div>
@@ -20,4 +20,4 @@ const Badges = () => {
   )
 }
 
-export default Badges
+export default Learnings
