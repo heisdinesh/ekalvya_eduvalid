@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-// import Checklist from './checklist';
-// import ChecklistItem from './checklistItem';
 import { LandingPage ,Curcuilum} from './pages';
+import Hackathons from './pages/Hackathons';
 
 
 const App = () => {
@@ -12,6 +11,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/react" element={<Curcuilum />} />
+          <Route path="/hackathons" element={<Hackathons />} />
+
         </Routes>
       </Router>
 
