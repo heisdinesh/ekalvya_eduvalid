@@ -32,7 +32,8 @@ const HackathonListItem = () => {
                 key={index}
                 name={item.hackathonName}
                 link={item.hackathonLink}
-                date={item.hackathonLink}
+                status = {item.status}
+                date={item.startDate}
               />
             );
           })}
