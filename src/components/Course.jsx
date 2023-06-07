@@ -88,10 +88,10 @@ const Course = ({ checkListItems, checkListProgress, data }) => {
               </p>
             </div>
             <div>
-              <Leaderboard
+              {/* <Leaderboard
                 progress={progress}
                 className="bg-gradient-to-r from-pinky to-bluey mb-12"
-              />
+              /> */}
             </div>
           </div>
         </div>
