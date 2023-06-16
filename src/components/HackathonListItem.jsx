@@ -27,7 +27,7 @@ const HackathonListItem = () => {
         <div className="pt-16 flex flex-wrap gap-7 justify-center">
           {data.map((item, index) => {
             return (
-              // <p>{item.hackathonLink}</p>
+              <div>
               <Tile
                 key={index}
                 name={item.hackathonName}
@@ -35,6 +35,7 @@ const HackathonListItem = () => {
                 status = {item.status}
                 date={item.startDate}
               />
+              </div>
             );
           })}
         </div>
